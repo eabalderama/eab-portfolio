@@ -22,11 +22,11 @@ export default function Profile() {
       </div>
       <div>
         <p className="font-light text-justify text-gray-200 indent-4">
-          I'm a{' '}
+          I&apos;m a{' '}
           <span className="font-normal border-b">Fullstack Developer</span>{' '}
           based in the Philippines with more than 2 years of relevant experience
-          developing websites and web applications. I'm knowledgeable both in
-          backend and frontend technologies using different frameworks.
+          developing websites and web applications. I&apos;m knowledgeable both
+          in backend and frontend technologies using different frameworks.
         </p>
       </div>
     </>
