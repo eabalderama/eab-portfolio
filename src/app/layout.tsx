@@ -1,19 +1,20 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { Roboto_Mono } from 'next/font/google';
-import { ReactNode } from 'react';
-import Navbar from './components/Navbar';
-import Script from 'next/script';
+import "./globals.css";
+import type { Metadata } from "next";
+import { Roboto_Mono } from "next/font/google";
+import { ReactNode } from "react";
+import Navbar from "./components/Navbar";
+import Script from "next/script";
 
-const robotoMono = Roboto_Mono({ subsets: ['latin'] });
+const robotoMono = Roboto_Mono({ subsets: ["latin"] });
 
 type LayoutProps = {
   children: ReactNode;
 };
 
 export const metadata: Metadata = {
-  title: 'E.A.Balderama',
-  description: 'Developer portfolio by Edgar Alan Balderama',
+  title: "E.A.Balderama",
+  description:
+    "Developer portfolio by Edgar Alan Balderama | Fullstack Developer | NextJs | ReactJs | NestJs",
 };
 
 export default function RootLayout({ children }: LayoutProps) {
