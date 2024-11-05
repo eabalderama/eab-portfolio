@@ -1,14 +1,14 @@
-import infanity from '../assets/images/infanity.png';
-import hyperjump from '../assets/images/hyperjump.png';
-import repit from '../assets/images/repitsocial.png';
-import Image from 'next/image';
-import Link from 'next/link';
+import infanity from "../assets/images/infanity.png";
+import hyperjump from "../assets/images/hyperjump.png";
+import repit from "../assets/images/repitsocial.png";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function TopProjects() {
   return (
     <div className="flex flex-col my-6 text-gray-200">
       <h1 className="w-max font-bold border-b-4 border-gray-600 mb-4">
-        Top Client Projects
+        Projects I Worked On
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
         <div>
@@ -27,7 +27,7 @@ export default function TopProjects() {
             I was responsible in the development of the whole project excluding
             the Smart Contract. From the minting page of the 1st and 2nd drop up
             to the NFT marketplace, integrating the Smart Contract and 3rd party
-            APIs such as Stripe.{' '}
+            APIs such as Stripe.{" "}
           </p>
         </div>
         <div>

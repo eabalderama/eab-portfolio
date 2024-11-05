@@ -6,39 +6,33 @@ export default function Experience() {
       </h1>
       <div className="font-light text-justify w-full grid grid-cols-2 gap-2">
         <div className="text-xs sm:text-base text-start">
-          Sep 2022 - Present
+          Sept 2022 to Present
         </div>
         <div>
-          <h1 className="font-bold">Fullstack Developer</h1>
-          <p className="text-sm">Tokenminds</p>
+          <h1 className="font-bold text-sm sm:text-base">
+            Fullstack Developer
+          </h1>
+          <p className="text-xs sm:text-sm">Tokenminds </p>
         </div>
         <div className="text-xs sm:text-base text-start">
-          Jun 2022 - Sep 2022
+          Jan 2022 to Sept 2022
         </div>
         <div>
-          <h1 className="font-bold">Laravel Developer</h1>
-          <p className="text-sm">Pegleg Legal</p>
+          <h1 className="font-bold text-sm sm:text-base">
+            Fullstack Developer
+          </h1>
+          <p className="text-xs sm:text-sm">Shiftleft Co. Ltd</p>
         </div>
         <div className="text-xs sm:text-base text-start">
-          Jan 2022 - May 2022
+          Dec 2020 to Dec 2021{" "}
         </div>
         <div>
-          <h1 className="font-bold">React Developer</h1>
-          <p className="text-sm">HyperJump</p>
-        </div>
-        <div className="text-xs sm:text-base text-start">
-          Jun 2021 - Dec 2021
-        </div>
-        <div>
-          <h1 className="font-bold">Fullstack Developer</h1>
-          <p className="text-sm">Cidekick</p>
-        </div>
-        <div className="text-xs sm:text-base text-start">
-          Dec 2020 - May 2021{' '}
-        </div>
-        <div>
-          <h1 className="font-bold">Fullstack Developer</h1>
-          <p className="text-sm">RepIt Social</p>
+          <h1 className="font-bold text-sm sm:text-base">
+            Fullstack Developer
+          </h1>
+          <p className="text-xs sm:text-sm ">
+            Genius Giants Web Development and QA Services
+          </p>
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
-import Image from 'next/image';
-import eab from '../assets/images/eab.jpg';
+import Image from "next/image";
+import eab from "../assets/images/eab.jpg";
+import React from "react";
 
 export default function Profile() {
   return (
@@ -22,11 +23,12 @@ export default function Profile() {
       </div>
       <div>
         <p className="font-light text-justify text-gray-200 indent-4">
-          I&apos;m a{' '}
-          <span className="font-normal border-b">Fullstack Developer</span>{' '}
-          based in the Philippines with more than 2 years of relevant experience
+          I&apos;m a{" "}
+          <span className="font-normal border-b">Fullstack Developer</span>{" "}
+          based in The Philippines with more than 4 years of relevant experience
           developing websites and web applications. I&apos;m knowledgeable both
-          in backend and frontend technologies using different frameworks.
+          in backend and frontend technologies using different frameworks such
+          as React.js, Next.js, Nest.js and Laravel.
         </p>
       </div>
     </>
