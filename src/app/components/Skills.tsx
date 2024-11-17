@@ -6,7 +6,7 @@ export default function Skills() {
       </h1>
       <p className="font-light text-justify">
         ReactJS · NextJS · NestJS · Typescript · Laravel · PHP · Postgresql ·
-        MongoDB · Prisma · tRPC · TailwindCSS · AWS · ReactNative · HTML · CSS ·
+        MongoDB · Prisma · TailwindCSS · AWS · ReactNative · HTML · CSS ·
         Javascript · NodeJS
       </p>
     </div>

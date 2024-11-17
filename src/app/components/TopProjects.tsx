@@ -1,4 +1,5 @@
 import infanity from "../assets/images/infanity.png";
+import mmaon from "../assets/images/mmaon.png";
 import hyperjump from "../assets/images/hyperjump.png";
 import repit from "../assets/images/repitsocial.png";
 import Image from "next/image";
@@ -11,6 +12,25 @@ export default function TopProjects() {
         Projects I Worked On
       </h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+        <div>
+          <Link href="https://mmaon.com/" target="_blank">
+            <div className="relative w-full h-56 sm:h-36">
+              <Image
+                src={mmaon}
+                fill
+                className="object-cover rounded-lg object-top"
+                alt="MMAON"
+              />
+            </div>
+          </Link>
+          <h1 className="text-lg font-bold">MMAON</h1>
+          <p className="text-xs text-justify">
+            Revamped MMAON platform from wordpress to NextJS. MMAON is a social
+            media platform for both fighters and fans of MMA utilizing the MMAON
+            token, a crypto currency solely intended for tipping and sending
+            rewards to fans and fighters.{" "}
+          </p>
+        </div>
         <div>
           <Link href="https://marketplace.infanity.xyz/" target="_blank">
             <div className="relative w-full h-56 sm:h-36">
